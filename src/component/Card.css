@@ -1,0 +1,146 @@
+.container_background {
+    background-color: #3e0e0e;
+    padding: 3%;
+    height: 100%;
+}
+
+.CARDS {
+    background-color: rgb(92, 34, 34);
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.CARDS:hover {
+    background-color: brown;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.08);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.paragraph {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    min-height: 88px;
+    width: 256px;
+}
+
+.text {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin: 20px 0;
+    min-height: 60px;
+    width: 256px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.CARDS:hover .overlay {
+    opacity: 1;
+}
+
+.container_background_set {
+    background-color: #ede1e1;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 3%;
+    /* border: 1px solid rgb(172, 172, 172); */
+}
+
+@media only screen and (max-width: 768px) {
+    .container_background_set {
+        height: auto; 
+    }
+    .side_text {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .golden-text {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+.side_text {
+    color: #222;
+    font-size: 38px;
+    line-height: 52px;
+}
+
+.golden-text {
+    color: #f60;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: -.73px;
+    line-height: 44px;
+}
+
+.side-items {
+    margin-bottom: 20px;
+}
+
+.side-border {
+    border-left: 4px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.back_img {
+    background-image: url(https://s.alicdn.com/@img/imgextra/i3/O1CN01FaQ37w1Zb91Cymass_!!6000000003212-0-tps-1920-456.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Button_style {
+    background-color: rgb(255, 94, 0);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 60px;
+    width: 10rem;
+}
+
+.login-guide_title {
+    color: white;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.login-guide_desc {
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 20px;
+}
