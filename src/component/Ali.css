@@ -61,12 +61,32 @@
     }
 }
 
-@media (max-width: 770px) {
 
-    .button4 {
-        margin-top: 0.8rem;
+.slider-container {
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    animation: slideAnimation 4s infinite alternate; 
+}
+
+.button4 {
+    margin-right: 5px; 
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
     }
 }
+
+/* Add your existing CSS here */
+
 
 .button {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
@@ -190,3 +210,7 @@
         margin-left: 4rem;
     }
  }
+ 
+
+ /* ------------- */
+ 

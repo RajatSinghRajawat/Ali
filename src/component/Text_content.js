@@ -15,7 +15,7 @@ const TextContent = () => {
                         <div className="col-md-6">
                             <div className="side-items">
                                 <div className="side-border">
-                                    <h2 className="golden-text">200M+</h2>
+                                    <h2 className="text-primary">200M+</h2>
                                     <p>products</p>
                                 </div>
                             </div>
@@ -23,7 +23,7 @@ const TextContent = () => {
                         <div className="col-md-6">
                             <div className="side-items">
                                 <div className="side-border">
-                                    <h2 className="golden-text">5,900</h2>
+                                    <h2 className="text-primary">5,900</h2>
                                     <p>product categories</p>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ const TextContent = () => {
                         <div className="col-md-6">
                             <div className="side-items">
                                 <div className="side-border">
-                                    <h2 className="golden-text">200K+</h2>
+                                    <h2 className="text-primary">200K+</h2>
                                     <p>suppliers</p>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const TextContent = () => {
                         <div className="col-md-6">
                             <div className="side-items">
                                 <div className="side-border">
-                                    <h2 className="golden-text">200+</h2>
+                                    <h2 className="text-primary">200+</h2>
                                     <p>countries and regions</p>
                                 </div>
                             </div>

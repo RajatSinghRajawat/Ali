@@ -29,7 +29,7 @@ const Cards = () => {
                             </div>
 
                             <div className='p-3'>
-                                <a href='#' className='text-light stretched-link'>View LIVE</a>
+                                <a href='#' className='text-light '>View LIVE</a>
                             </div>
 
                         </div>
@@ -47,7 +47,7 @@ const Cards = () => {
                             </div>
 
                             <div className='p-3'>
-                                <a href='#' className='text-light stretched-link'>View more</a>
+                                <a href='#' className='text-light '>View more</a>
                             </div>
 
                         </div>
@@ -64,7 +64,7 @@ const Cards = () => {
                             </div>
 
                             <div className='p-3'>
-                                <a href='#' className='text-light stretched-link'>View more</a>
+                                <a href='#' className='text-light '>View more</a>
                             </div>
 
                         </div>
