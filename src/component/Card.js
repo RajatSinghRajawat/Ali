@@ -28,6 +28,7 @@ const imag_map = [
 const Card = () => {
     return (
         <div className='container-fluid container_background'>
+                        
             <div className='row'>
                 {imag_map.map((item, index) => (
                     <div key={index} className="col-lg-3 col-md-6 col-sm-12 mb-4">

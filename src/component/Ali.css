@@ -54,7 +54,6 @@
 }
 
 @media (max-width: 576px) {
-
     .input-group,
     .button2 {
         display: none;
@@ -62,7 +61,6 @@
 }
 
 @media (max-width: 770px) {
-
     .button4 {
         margin-top: 0.8rem;
     }
@@ -70,9 +68,8 @@
 
 .button {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
-    FONT-SIZE: 16px;
-    /* LINE-HEIGHT:22px; */
-    TEXT-ALIGN: center
+    font-size: 16px;
+    text-align: center;
 }
 
 .camera {
@@ -85,10 +82,10 @@
 
 .button2 {
     font-weight: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
-    FONT-SIZE: 14px;
-    LINE-HEIGHT: 36px;
-    TEXT-ALIGN: start;
-    LETTER-SPACING: normal;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: start;
+    letter-spacing: normal;
 }
 
 @media (max-width: 768px) {
@@ -98,76 +95,61 @@
     }
 }
 
-/* //footer////////////////////////////////////////////// */
 .footer1 {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
-    FONT-SIZE: 16px;
-    LINE-HEIGHT: 22px;
-    TEXT-ALIGN: start;
-    LETTER-SPACING: normal
+    font-size: 16px;
+    line-height: 22px;
+    text-align: start;
+    letter-spacing: normal;
 }
 
 .footer2 {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
-    FONT-SIZE: 12px;
-    LINE-HEIGHT: 18px;
-    TEXT-ALIGN: left;
-    LETTER-SPACING: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    letter-spacing: normal;
     color: #3a3a3a;
 }
 
 .footer2:hover {
-    /* border-bottom:1px solid gray;
-    width:9rem; */
     text-decoration: underline;
 }
 
-/* /////////////////////////////////////////////////play button */
 #myButton {
     background-color: #000000;
     border: none;
     color: white;
-    /* padding: 10px 20px; */
     text-align: center;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    cursor: pointer;
     border-radius: 5px;
 }
 
-
 .download-button {
     margin: 10px;
-    /* Adjust margin as needed */
 }
 
 .button-text {
     font-size: 10px;
-    /* Adjust text size as needed */
     margin: 0;
-}
-
-.footer4 {
-    cursor: pointer;
 }
 
 .store-name {
     font-weight: bold;
-    /* Add some space between the text and store name */
 }
 
 .lasttext {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
-    FONT-SIZE: 14px;
-    LINE-HEIGHT: 18px;
-    TEXT-ALIGN: start;
-    LETTER-SPACING: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+    letter-spacing: normal;
 }
 
-/* //////////////////////////////////////////////////// nav */
 .Navbutton {
     background-color: rgb(0, 38, 85);
     color: white;
@@ -183,10 +165,8 @@
     justify-content: end;
 }
 
-/* 
- */
- @media screen and (min-width:800px) {
-    .mys{
+@media screen and (min-width: 800px) {
+    .mys {
         margin-left: 4rem;
     }
- }
+}

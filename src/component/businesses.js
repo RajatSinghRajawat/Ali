@@ -1,10 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./businesses.css";
 import { CiSearch } from "react-icons/ci";
-import { TbRosetteDiscountCheck } from "react-icons/tb";
+import { TbRosetteDiscountCheck, TbUserCog } from "react-icons/tb";
 import { MdOutlineSwapVerticalCircle } from "react-icons/md";
 import { AiOutlineGlobal } from "react-icons/ai";
-import { TbUserCog } from "react-icons/tb";
 import SerachImg from "./assets/search.jpg";
 import Identify from "./assets/Identify.jpg";
 import Pay from "./assets/Pay.jpg";
@@ -18,46 +17,61 @@ import Navbar from "./Navbar";
 import Navbar1 from "./Navbar1";
 
 const Businesses = () => {
-  let parent1 = document.getElementById("firstcol");
-  let parent2 = document.getElementById("secondcol");
-  let parent3 = document.getElementById("thirdcol");
-  let parent4 = document.getElementById("fourcol");
-  let parent5 = document.getElementById("fivecol");
+  const [currentImage, setCurrentImage] = useState(SerachImg);
 
-  const changeimg = (e) => {
-    let myh2 = e.currentTarget.children[0].children[1].children[0];
-    myh2.classList.add("addh2");
+  useEffect(() => {
+    const handleMouseEnter = (e) => {
+      const { id } = e.currentTarget;
+      switch (id) {
+        case "firstcol":
+          setCurrentImage(SerachImg);
+          break;
+        case "secondcol":
+          setCurrentImage(Identify);
+          break;
+        case "thirdcol":
+          setCurrentImage(Pay);
+          break;
+        case "fourcol":
+          setCurrentImage(Fulfill);
+          break;
+        case "fivecol":
+          setCurrentImage(Manage);
+          break;
+        default:
+          setCurrentImage(SerachImg);
+          break;
+      }
+      e.currentTarget.classList.add("addh2");
+      e.currentTarget.querySelector(".iconPara").classList.add("addpara");
+    };
 
-    let mypara = e.currentTarget.children[0].children[1].children[1];
-    mypara.classList.add("addpara");
+    const handleMouseLeave = (e) => {
+      e.currentTarget.classList.remove("addh2");
+      e.currentTarget.querySelector(".iconPara").classList.remove("addpara");
+    };
 
-    if (e.currentTarget.id == "firstcol") {
-      e.currentTarget.parentElement.nextSibling.children[0].src = SerachImg;
-    } else if (e.currentTarget.id == "secondcol") {
-      e.currentTarget.parentElement.nextSibling.children[0].src = Identify;
-    } else if (e.currentTarget.id == "thirdcol") {
-      e.currentTarget.parentElement.nextSibling.children[0].src = Pay;
-    } else if (e.currentTarget.id == "fourcol") {
-      e.currentTarget.parentElement.nextSibling.children[0].src = Fulfill;
-    } else if (e.currentTarget.id == "fivecol") {
-      e.currentTarget.parentElement.nextSibling.children[0].src = Manage;
-    }
-  };
+    const columns = document.querySelectorAll(".seracIcon_div");
+    columns.forEach((col) => {
+      col.addEventListener("mouseenter", handleMouseEnter);
+      col.addEventListener("mouseleave", handleMouseLeave);
+    });
 
-  const removeclass = (e) => {
-    let myh2 = e.currentTarget.children[0].children[1].children[0];
-    myh2.classList.remove("addh2");
-    let mypara = e.currentTarget.children[0].children[1].children[1];
-    mypara.classList.remove("addpara");
-  };
+    return () => {
+      columns.forEach((col) => {
+        col.removeEventListener("mouseenter", handleMouseEnter);
+        col.removeEventListener("mouseleave", handleMouseLeave);
+      });
+    };
+  }, []);
 
   return (
     <>
-      <Navbar/>
-      <Card/>
-      <TextContent/>
-      <Cards/>
-      
+      <Navbar />
+      <Card />
+      <TextContent />
+      <Cards />
+
       <div className="container py-5">
         <div className="row mb-5">
           <div className="col-12">
@@ -67,15 +81,10 @@ const Businesses = () => {
             </h3>
           </div>
         </div>
-        <div className="row ">
+        <div className="row">
           <div className="col-md-6">
-            <div
-              className="row  seracIcon_div "
-              id="firstcol"
-              onMouseLeave={removeclass}
-              onMouseEnter={changeimg}
-            >
-              <div className="col-12  d-flex flex-row ">
+            <div className="row seracIcon_div" id="firstcol">
+              <div className="col-12 d-flex flex-row">
                 <span className="me-3">
                   <CiSearch className="searchIcon" />
                 </span>
@@ -90,12 +99,8 @@ const Businesses = () => {
               </div>
             </div>
 
-            <div
-              className="row my-3 seracIcon_div"
-              id="secondcol"
-              onMouseEnter={changeimg}
-            >
-              <div className="col-12  d-flex flex-row   ">
+            <div className="row my-3 seracIcon_div" id="secondcol">
+              <div className="col-12 d-flex flex-row">
                 <span className="me-3">
                   <TbRosetteDiscountCheck className="searchIcon" />
                 </span>
@@ -111,12 +116,8 @@ const Businesses = () => {
               </div>
             </div>
 
-            <div
-              className="row my-3 seracIcon_div"
-              id="thirdcol"
-              onMouseEnter={changeimg}
-            >
-              <div className="col-12  d-flex flex-row   ">
+            <div className="row my-3 seracIcon_div" id="thirdcol">
+              <div className="col-12 d-flex flex-row">
                 <span className="me-3">
                   <MdOutlineSwapVerticalCircle className="searchIcon" />
                 </span>
@@ -130,12 +131,8 @@ const Businesses = () => {
               </div>
             </div>
 
-            <div
-              className="row my-3 seracIcon_div"
-              id="fourcol"
-              onMouseEnter={changeimg}
-            >
-              <div className="col-12  d-flex flex-row   ">
+            <div className="row my-3 seracIcon_div" id="fourcol">
+              <div className="col-12 d-flex flex-row">
                 <span className="me-3">
                   <AiOutlineGlobal className="searchIcon" />
                 </span>
@@ -152,12 +149,8 @@ const Businesses = () => {
               </div>
             </div>
 
-            <div
-              className="row my-3 seracIcon_div"
-              id="fivecol"
-              onMouseEnter={changeimg}
-            >
-              <div className="col-12  d-flex flex-row   ">
+            <div className="row my-3 seracIcon_div" id="fivecol">
+              <div className="col-12 d-flex flex-row">
                 <span className="me-3">
                   <TbUserCog className="searchIcon" />
                 </span>
@@ -173,25 +166,27 @@ const Businesses = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 	d-none d-md-block d-lg-block">
-            <img className="img-fluid" src={SerachImg} alt="" />
+          <div className="col-md-6 d-none d-md-block d-lg-block">
+            <img className="img-fluid" src={currentImage} alt="" />
           </div>
         </div>
       </div>
-      <Slider/>
-      <div className="container  my-4">
+      <Slider />
+      <div className="container my-4">
         <div className="row my-5">
           <div className="col-12 text-center bus_contentDiv">
-            <h2 className="fw-bold">Empowering businesses through global trade</h2>
+            <h2 className="fw-bold">
+              Empowering businesses through global trade
+            </h2>
             <p>
-              Indibaba.com offers one-stop B2B trading solutions for global small
-              and medium-sized businesses, <br />
+              Indibaba.com offers one-stop B2B trading solutions for global
+              small and medium-sized businesses, <br />
               empowering them to transform through digital trade, grasp
               opportunities, and accelerate growth <br /> internationally.
             </p>
           </div>
         </div>
-        <div className="row ">
+        <div className="row">
           <div className="col-lg-6">
             <div className="imgDiv1 d-flex align-items-end">
               <p className="imgDiv1_para ps-3">
@@ -202,46 +197,48 @@ const Businesses = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-6 ">
+          <div className="col-lg-6">
             <div className="container">
-            <div className="row mb-4 imgDiv2">
-                  <div className="col-8 d-flex ">
-                    <p className="imgDiv2_para ps-3 ">
-                      OUR MISSION <br />
-                      <span className="imgDiv2f_span">
-                        We have teams around the world.
-                      </span>
-                    </p>
-                  </div>
-                  <div className="col-4 ">
-                    <p className="sd">
-                      Hangzhou, China <br /> Paris, France <br /> Munich,
-                      Germany <br /> Tokyo, Japan <br />
-                      Seoul, Korea <br /> London, UK <br /> New York, US <br />
-                      ... <br /> and many other <br />
-                      locations <br /> worldwide.
-                    </p>
-                  </div>
-            </div>
+              <div className="row mb-4 imgDiv2">
+                <div className="col-8 d-flex">
+                  <p className="imgDiv2_para ps-3">
+                    OUR MISSION <br />
+                    <span className="imgDiv2f_span">
+                      We have teams around the world.
+                    </span>
+                  </p>
+                </div>
+                <div className="col-4">
+                  <p className="sd">
+                    Hangzhou, China <br /> Paris, France <br /> Munich, Germany{" "}
+                    <br /> Tokyo, Japan <br />
+                    Seoul, Korea <br /> London, UK <br /> New York, US <br />
+                    ... <br /> and many other <br />
+                    locations <br /> worldwide.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="container">
-            <div className="row ">
-              <div className="col imgDiv3  d-flex align-items-center">
-                <p className="imgDiv3_para ps-3">
-                  OUR ESG PROMISES
-                  <br />
-                  <span className="imgDiv3_span">
-                    Responsible technology. Sustainable future.
-                  </span>
-                </p>
+              <div className="row">
+                <div className="col imgDiv3 d-flex align-items-center">
+                  <p className="imgDiv3_para ps-3">
+                    OUR ESG PROMISES
+                    <br />
+                    <span className="imgDiv3_span">
+                      Responsible technology. Sustainable future.
+                    </span>
+                  </p>
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
       </div>
-      <footer><Navbar1/></footer>
+      <footer>
+        <Navbar1 />
+      </footer>
     </>
   );
 };
