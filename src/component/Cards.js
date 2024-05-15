@@ -14,7 +14,7 @@ import './Cards.css';
 const Cards = () => {
     return (
         <>
-            <div className=' m-2 px-3 fs-2 bold'>Source direct-from-factory</div>
+            <div className=' m-2 px-3 fs-2 bold'>Customer Satisfaction Guarantee:</div>
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-lg-4 col-md-4 col-sm-12'>
@@ -25,7 +25,8 @@ const Cards = () => {
 
                             <div className='d-flex p-3 fs-2 align-items-center text-light'>
                                 <img src={img11} className='img-fluid' alt="Live Tour" />
-                                <h5 className='px-3'>Take factory live tours</h5>
+                                <h5 className='px-3'>Return Policy
+</h5>
                             </div>
 
                             <div className='p-3'>
@@ -43,7 +44,7 @@ const Cards = () => {
 
                             <div className=' p-3 fs-2 text-light'>
 
-                                <h5 className='px-3'>Get samples</h5>
+                                <h5 className='px-3'>Customer Reviews:</h5>
                             </div>
 
                             <div className='p-3'>
@@ -60,7 +61,7 @@ const Cards = () => {
                         }} className='my-3 rounded-5 backimg'>
 
                             <div className=' p-3 fs-2 text-light'>
-                                <h5 className='px-3'>Connect with top-ranking manufactures</h5>
+                                <h5 className='px-3'>24/7 Customer Support</h5>
                             </div>
 
                             <div className='p-3'>

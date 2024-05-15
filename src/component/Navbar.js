@@ -10,8 +10,8 @@ const Navbar = () => {
                 <div className='row back'>
                     <div className='col-lg-12 col-md-12 col-sm-12 text1'>
                         <div className=' mys'>
-                            <p className='text-light text2'><span><i className="fa-solid fa-circle-play"></i></span> Learn about Indibaba.com</p>
-                            <h2 className='text-light text3'><b>The leading B2B ecommerce platform for <br /> global trade</b></h2>
+                            <p className='text-light text2'><span><i className="fa-solid fa-circle-play"></i></span> Discover Indibaba</p>
+                            <h2 className='text-light text3'><b>● Empower Your Business, Expand Your Horizons with Indibaba</b></h2>
                             <div className='row'>
                                 <div className='col-lg-12'>
                                     <div className="input-group mt-5 input">
@@ -36,16 +36,18 @@ const Navbar = () => {
                             </div>
                             <div className='row mt-5 mb-5'>
                                 <div className='col-lg-2 col-md-6 col-sm-12 mt-1'>
-                                    <p className='text-light button4'>Frequently searched :</p>
+                                    <p className='text-light button4'>Frequently explored
+ :</p>
                                 </div>
                                 <div className='col-lg-2 col-md-6 col-sm-12'>
-                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>Kids toys</button>
+                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>sport shoe men</button>
                                 </div>
                                 <div className='col-lg-2 col-md-6 col-sm-12'>
-                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>headphones</button>
+                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'> football shoe men</button>
                                 </div>
                                 <div className='col-lg-2 col-md-6 col-sm-12'>
-                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>car accessories</button>
+                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>kids bed
+</button>
                                 </div>
                                 
                             </div>

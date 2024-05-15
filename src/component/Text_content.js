@@ -8,7 +8,8 @@ const TextContent = () => {
         <div className="container ">
             <div className="row">
                 <div className="col-lg-6">
-                    <h1 className='side_text'>Explore millions of offerings tailored to your business needs</h1>
+                    <h1 className='side_text'>Millions of possibilities, one perfect match - Find it on IndiBaba.
+</h1>
                 </div>
                 <div className="col-lg-6">
                     <div className="row">
@@ -16,7 +17,8 @@ const TextContent = () => {
                             <div className="side-items">
                                 <div className="side-border">
                                     <h2 className="golden-text">200M+</h2>
-                                    <p>products</p>
+                                    <p>Convenience Of Buying
+</p>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +26,8 @@ const TextContent = () => {
                             <div className="side-items">
                                 <div className="side-border">
                                     <h2 className="golden-text">5,900</h2>
-                                    <p>product categories</p>
+                                    <p>Payment Protection
+</p>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +37,7 @@ const TextContent = () => {
                             <div className="side-items">
                                 <div className="side-border">
                                     <h2 className="golden-text">200K+</h2>
-                                    <p>suppliers</p>
+                                    <p>Safekeeping of Customer Data</p>
                                 </div>
                             </div>
                         </div>
