@@ -1,19 +1,18 @@
 .container_background {
-    background-color: #3e0e0e;
+    background-color: #001f3f; /* Changed to navy blue */
     padding: 3%;
     height: 100%;
 }
 
 .CARDS {
-    background-color: rgb(92, 34, 34);
+    background-color: hsl(210, 100%, 20%); /* Darker shade of navy blue */
     border-radius: 10px;
     color: white;
     position: relative;
     overflow: hidden;
 }
-
 .CARDS:hover {
-    background-color: brown;
+    background-color: hsl(210, 100%, 20%); ;
 }
 
 .icon-wrapper {
@@ -93,7 +92,7 @@
 }
 
 .golden-text {
-    color: #f60;
+    color: hsl(210, 100%, 20%);
     font-size: 36px;
     font-weight: 500;
     letter-spacing: -.73px;
