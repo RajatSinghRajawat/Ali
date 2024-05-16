@@ -66,12 +66,28 @@
     }
 }
 
-@media (max-width: 770px) {
 
-    .button4 {
-        margin-top: 0.8rem;
-    }
+.slider-container {
+    overflow-x: auto;
+    white-space: nowrap;
 }
+.slider-container::-webkit-scrollbar{
+    display: none;
+}
+
+.slider {
+    display: inline-flex;
+    transition: transform 0.5s ease;
+}
+
+.button4 {
+    margin-right: 10px; 
+    color: hsl(210, 100%, 20%);
+
+}
+
+
+
 
 .button {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
@@ -194,3 +210,6 @@
         margin-left: 4rem;
     }
  }
+ 
+
+ /* ------------- */

@@ -1,7 +1,11 @@
-import React from 'react';
+import React from 'react'
 import './Ali.css';
 import Navbar2 from './Navbar2'
 const Navbar = () => {
+
+
+  
+
     return (
         <>
         <Navbar2/>
@@ -9,8 +13,9 @@ const Navbar = () => {
                 <div className='row back'>
                     <div className='col-lg-12 col-md-12 col-sm-12 text1'>
                         <div className=' mys'>
-                            <p className='text-light text2'><span><i className="fa-solid fa-circle-play"></i></span> Learn about Indibaba.com</p>
-                            <h2 className='text-light text3'><b>The leading B2B ecommerce platform for <br /> global trade</b></h2>
+                            <p className='text-light text2'>
+                                <span><i className="fa-solid fa-circle-play"></i></span>Discover Indibaba</p>
+                            <h2 className=' text3'><b>Indibaba: Your Window to WorldWide <br/> Business</b></h2>
                             <div className='row'>
                                 <div className='col-lg-12'>
                                     <div className="input-group mt-5 input">
@@ -37,14 +42,18 @@ const Navbar = () => {
                                 <div className='col-lg-2 col-md-6 col-sm-12 mt-1'>
                                     <p className=' button4'>Frequently searched :</p>
                                 </div>
-                                <div className='col-lg-2 col-md-6 col-sm-12'>
-                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>Kids toys</button>
-                                </div>
-                                <div className='col-lg-2 col-md-6 col-sm-12'>
-                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>headphones</button>
-                                </div>
-                                <div className='col-lg-2 col-md-6 col-sm-12'>
-                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>car accessories</button>
+                                <div className='col-lg-10 col-md-6 col-sm-12'>
+                                    <div className="slider-container">
+                                        <div className="slider">
+                                            <button className='btn btn-outline-dark  border-light rounded-pill button4 ps-4 pe-4'>Commonly explored</button>
+                                            <button className='btn btn-outline-dark  border-light rounded-pill button4 ps-4 pe-4'>Popularly researched</button>
+                                            <button className='btn btn-outline-dark  border-light rounded-pill button4 ps-4 pe-4'>Frequently explored</button>
+                                            <button className='btn btn-outline-dark  border-light rounded-pill button4 ps-4 pe-4'>sport shoe men</button>
+                                            <button className='btn btn-outline-dark  border-light rounded-pill button4 ps-4 pe-4'>football shoe men</button>
+                                            <button className='btn btn-outline-dark  border-light rounded-pill button4 ps-4 pe-4'>kids bed</button>
+                                            
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -56,4 +65,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default Navbar;

@@ -12,7 +12,7 @@
     padding: 0.5rem;
     border-radius: 30px;
     border: 2px solid gray;
-    
+
 }
 
 
@@ -46,8 +46,8 @@
     .searchIcon {
         font-size: 3.5rem;
         padding: 0.8rem;
-        color: red;
-        background-color: hsl(0, 40%, 70%);
+        color: black;
+        background-color: hsl(210, 99%, 45%);
         border: none;
     }
 
@@ -82,15 +82,46 @@
     background-size: cover;
     height: 30rem;
     border-radius: 23px;
-}
-.imgDivs1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0.9;
+    /* filter: brightness(90%) contrast(75%) saturate(90%) ;  */
+
+  }
+  
+  .imgDiv1_para {
+
+    
+    color: hsl(211, 91%, 36%); /* Text color */
+    font-size: 20px; /* Adjust font size as needed */
+    font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
+    line-height: 24px;
+    font-weight: bolder;
+  }
+  
+  .imgDiv1_span {
+    font-weight: bold; /* Example style */
+  }
+  
+  .imgDivs1 {
     background-image: url('assets/Copperate.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 30rem;
     border-radius: 23px;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0.9;
+
+    /* filter: brightness(90%) contrast(75%) saturate(90%);  */
+  }
+  
+
+  
+
 
 .imgDiv2 {
     background-image: url('assets/map.jpg');
@@ -110,25 +141,17 @@
     border-radius: 23px;
 }
 
-.imgDiv1_para {
-    font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
-    font-size: 16px;
-    line-height: 24px;
-    color: red;
-    font-weight: bold;
-
-}
 
 .imgDiv1_span {
     font-size: 32px;
-    line-height: 40px;
+    /* line-height: 40px; */
     color: #ffffff;
 }
 
 .imgDiv2_para {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
     align-self: flex-end;
-    color: red;
+    color: hsl(210, 100%, 20%);
     font-weight: bold;
 }
 
@@ -189,3 +212,12 @@
         line-height: 30px;
     }
 }
+.darkbackcolor{
+    background: #00000082;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    
+    
+    
+    }
