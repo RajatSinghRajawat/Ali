@@ -26,7 +26,7 @@ const Navbar2 = () => {
             </ul>
             <form className="d-flex">
               <button className="btn btn-outline-light rounded-5 ps-5 pe-5 Navbutton me-3" type="submit">Sign up</button>
-              <div style={{backgroundColor:"white",width:"2.5rem",cursor:"pointer"}} className='rounded-5'><center><div style={{width:"1.7rem",backgroundColor:"blue"}} className='rounded-5 mt-2'><span className='pb-1'><SiGooglegemini className='pb-1 fs-4'/></span></div></center></div>
+              <div style={{backgroundColor:"white",width:"2.5rem",cursor:"pointer"}} className='rounded-5'><center><div style={{width:"1.4rem",height:"1.5rem",backgroundColor:"blue"}} className='rounded-5 mt-2'><span className='pb-1'><SiGooglegemini className='pb-1 fs-4'/></span></div></center></div>
             </form>
           </div>
         </div>

@@ -1,10 +1,11 @@
 * {
     padding: 0px;
     margin: 0px;
+    
 }
 
 .back {
-    background-image: url("img/img1.jpg");
+    background-image: url("img/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,6 +31,9 @@
     line-height: 52px;
     text-align: start;
     letter-spacing: normal;
+    color: hsl(210, 100%, 20%);
+
+
 }
 
 @media (max-width: 768px) {
@@ -51,6 +55,7 @@
         max-width: 40rem;
         margin: 0 auto;
     }
+   
 }
 
 @media (max-width: 576px) {
@@ -61,37 +66,16 @@
     }
 }
 
+@media (max-width: 770px) {
 
-.slider-container {
-    overflow: hidden;
-}
-
-.slider {
-    display: flex;
-    transition: transform 0.5s ease;
-    animation: slideAnimation 4s infinite alternate; 
-}
-
-.button4 {
-    margin-right: 5px; 
-}
-
-@keyframes slideAnimation {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(100%);
+    .button4 {
+        margin-top: 0.8rem;
     }
 }
-
-/* Add your existing CSS here */
-
 
 .button {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
     FONT-SIZE: 16px;
-    /* LINE-HEIGHT:22px; */
     TEXT-ALIGN: center
 }
 
@@ -121,25 +105,28 @@
 /* //footer////////////////////////////////////////////// */
 .footer1 {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
-    FONT-SIZE: 16px;
+    FONT-SIZE: 18px;
     LINE-HEIGHT: 22px;
+    font-weight: 800;
     TEXT-ALIGN: start;
     LETTER-SPACING: normal
 }
 
 .footer2 {
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
-    FONT-SIZE: 12px;
+    FONT-SIZE: 14px;
     LINE-HEIGHT: 18px;
     TEXT-ALIGN: left;
     LETTER-SPACING: normal;
-    color: #3a3a3a;
+    
 }
 
 .footer2:hover {
     /* border-bottom:1px solid gray;
     width:9rem; */
     text-decoration: underline;
+    color: hsl(210, 100%, 20%);
+
 }
 
 /* /////////////////////////////////////////////////play button */
@@ -161,12 +148,10 @@
 
 .download-button {
     margin: 10px;
-    /* Adjust margin as needed */
 }
 
 .button-text {
     font-size: 10px;
-    /* Adjust text size as needed */
     margin: 0;
 }
 
@@ -176,7 +161,6 @@
 
 .store-name {
     font-weight: bold;
-    /* Add some space between the text and store name */
 }
 
 .lasttext {
@@ -210,7 +194,3 @@
         margin-left: 4rem;
     }
  }
- 
-
- /* ------------- */
- 

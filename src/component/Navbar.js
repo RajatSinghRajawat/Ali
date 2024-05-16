@@ -1,24 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './Ali.css';
 import Navbar2 from './Navbar2'
 const Navbar = () => {
-
-
-    const sliderRef = useRef(null);
-
-    useEffect(() => {
-        const slider = sliderRef.current;
-
-        const slideInterval = setInterval(() => {
-            slider.scrollLeft += slider.clientWidth; // Scroll to the next item
-            if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth) {
-                slider.scrollLeft = 0; // Reset to the beginning if reached the end
-            }
-        }, 3000); // Adjust the interval as needed
-
-        return () => clearInterval(slideInterval); // Clean up interval on component unmount
-    }, []);
-
     return (
         <>
         <Navbar2/>
@@ -26,8 +9,7 @@ const Navbar = () => {
                 <div className='row back'>
                     <div className='col-lg-12 col-md-12 col-sm-12 text1'>
                         <div className=' mys'>
-                            <p className='text-light text2'>
-                                <span><i className="fa-solid fa-circle-play"></i></span>Learn about Indibaba.com</p>
+                            <p className='text-light text2'><span><i className="fa-solid fa-circle-play"></i></span> Learn about Indibaba.com</p>
                             <h2 className='text-light text3'><b>The leading B2B ecommerce platform for <br /> global trade</b></h2>
                             <div className='row'>
                                 <div className='col-lg-12'>
@@ -53,23 +35,16 @@ const Navbar = () => {
                             </div>
                             <div className='row mt-5 mb-5'>
                                 <div className='col-lg-2 col-md-6 col-sm-12 mt-1'>
-                                    <p className='text-light button4'>Frequently searched :</p>
+                                    <p className=' button4'>Frequently searched :</p>
                                 </div>
-                                <div className='col-lg-10 col-md-6 col-sm-12'>
-                                    <div className="slider-container" ref={sliderRef}>
-                                       
-                                        <div className="slider">
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>Kids toys</button>
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>headphones</button>
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>car accessories</button>
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>car accessories</button>
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>car accessories</button>
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>car accessories</button>
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>car accessories</button>
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>car accessories</button>
-                                            <button className='btn btn-outline-dark text-light border-light rounded-pill button4 '>car accessories</button>
-                                        </div>
-                                    </div>
+                                <div className='col-lg-2 col-md-6 col-sm-12'>
+                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>Kids toys</button>
+                                </div>
+                                <div className='col-lg-2 col-md-6 col-sm-12'>
+                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>headphones</button>
+                                </div>
+                                <div className='col-lg-2 col-md-6 col-sm-12'>
+                                    <button className='btn btn-outline-dark text-light border-light rounded-pill button4 ps-4 pe-4'>car accessories</button>
                                 </div>
                             </div>
 
@@ -81,4 +56,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default Navbar;

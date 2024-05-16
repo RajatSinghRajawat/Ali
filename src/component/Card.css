@@ -1,19 +1,18 @@
 .container_background {
-    background-color: royalblue;
+    background-color: #3e0e0e;
     padding: 3%;
     height: 100%;
 }
 
 .CARDS {
-    background-color: rgba(155, 36, 155, 0.851);
+    background-color: rgb(92, 34, 34);
     border-radius: 10px;
     color: white;
     position: relative;
     overflow: hidden;
 }
-
 .CARDS:hover {
-    background-color: rgb(54, 146, 171);
+    background-color: brown;
 }
 
 .icon-wrapper {
@@ -93,7 +92,7 @@
 }
 
 .golden-text {
-    color: #f60;
+    color: hsl(210, 100%, 20%);
     font-size: 36px;
     font-weight: 500;
     letter-spacing: -.73px;
