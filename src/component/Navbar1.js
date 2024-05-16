@@ -79,10 +79,10 @@ const Navbar1 = () => {
                             <div className='col-lg-6 col-md-6 col-sm-12 mt-5 pt-2'>
                                 <div className='row'>
                                     <div className='col-lg-4 col-md-6 col-sm-12 mt-2'>
-                                        <p className=''>Trade on the go with the <span className='footer1'><b> Indibaba.com app </b></span> </p>
+                                        <p className=''>Trade anywhere with the indibaba.com app </p>
 
                                     </div>
-                                    <div className='col-lg-8 col-md-12 col-sm-12 d-flex'>
+                                    {/* <div className='col-lg-8 col-md-12 col-sm-12 d-flex'>
                                         <button id="myButton" class="download-button ps-2 pe-4">
                                             <h3> <FaApple /></h3>
                                             <div className='ps-2'>
@@ -99,7 +99,7 @@ const Navbar1 = () => {
                                             </div>
                                         </button>
 
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

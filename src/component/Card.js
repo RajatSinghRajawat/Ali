@@ -1,27 +1,34 @@
 import React from 'react';
 import { PiSquaresFour } from "react-icons/pi";
+import { HiMiniPencilSquare } from "react-icons/hi2";
+import { PiBoxArrowDownFill } from "react-icons/pi";
+import { GiMayanPyramid } from "react-icons/gi";
+
 import './Card.css';
 
 const imag_map = [
     {
         icons: <PiSquaresFour />,
-        text: "Millions of business offerings",
-        paragraph: "Explore products and suppliers for your business from millions of offerings worldwide."
+        text: " Diverse Business Options",
+        paragraph: "Find what you need for your business among millions of offerings worldwide."
     },
     {
-        icons: <PiSquaresFour />,
-        text: "Assured quality and transactions",
-        paragraph: "Ensure production quality from verified suppliers, with your orders protected from payment to delivery."
+        icons: <HiMiniPencilSquare />
+        ,
+        text: "Quality Assurance and Secure Transactions",
+        paragraph: "Rest assured with verified suppliers and protected transactions, from payment to delivery."
     },
     {
-        icons: <PiSquaresFour />,
-        text: "One-stop trading solution",
-        paragraph: "Order seamlessly from product/supplier search to order management, payment, and fulfillment."
+        icons: <PiBoxArrowDownFill />
+        ,
+        text: "All-in-One Trade Hub",
+        paragraph: "Handle everything from finding products and suppliers to managing orders and payments in one place."
     },
     {
-        icons: <PiSquaresFour />,
-        text: "Tailored trading experience",
-        paragraph: "Get curated benefits, such as exclusive discounts, enhanced protection, and extra support, to help grow your business every step of the way."
+        icons: <GiMayanPyramid />
+        ,
+        text: "Personalized Trading Support",
+        paragraph: "Enjoy tailored benefits like special discounts, added protection, and extra assistance to help your business thrive."
     },
 ];
 

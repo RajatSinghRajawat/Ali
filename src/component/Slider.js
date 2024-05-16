@@ -2,7 +2,7 @@ import React from 'react'
 import img7 from './images/img7.png';
 import img8 from './images/img8.png';
 import img9 from './images/img9.png';
-import img10 from './images/img10.png';
+import type from './images/type.jpg'
 import './Slider.css'
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -11,8 +11,13 @@ const Slider = () => {
         <>
             <div className='bgcol'>
                 <div className='text-center p-3'>
-                    <h2 className='txt py-3'>Get tailored discounts, services, and tools for <br /> your business stage.</h2>
-                    <p className='text-secondary'>Grow with curated benefits offered by the free Indibaba.com Membership, whether you are a small <br /> business needing the essentials to start sourcing or a well-established enterprise looking for tools and <br /> solutions for more complex orders.</p>
+                    <h2 className='txt py-3'>Access personalized discounts, services, and tools
+                        designed for <br /> your business stage</h2>
+                    <p className='text-justify'>Benefit from curated advantages with the complimentary Indibaba
+                        Membership, catering to businesses at every phase. <br /> Whether you're a startup
+                        requiring essentials to initiate sourcing or a well-established enterprise
+                        seeking <br />advanced tools and solutions for complex orders, we've got you
+                        covered.</p>
                     <a href='#' className='text-dark fs-5'>Learn more</a>
 
                 </div>
@@ -37,10 +42,12 @@ const Slider = () => {
                                     </div>
 
                                 </div>
-                                
+
                                 <div className='col-lg-6 col-md-6 col-sm-12'>
                                     <div className='p-4 text-start'>
-                                        <h5 >“Once I discovered Indibaba.com, I was amazed at how  many options I had with suppliers from all over the world.”</h5>
+                                        <h5 >“As a dedicated entrepreneur in the Beauty industry,
+                                            crafting original products is my passion. Indibaba has been my
+                                            reliable partner throughout this journey”</h5>
                                     </div>
                                 </div>
                                 <div className='col-lg-1'></div>
@@ -64,7 +71,7 @@ const Slider = () => {
                                     </div>
 
                                 </div>
-                                
+
                                 <div className='col-lg-6 col-md-6 col-sm-12'>
                                     <div className='p-4 text-start'>
                                         <h5 >“Indibaba.com is a game changer for small businesses like us. We were able to find the exact product we needed and I don't think we could have sourced anything without Indibaba.com.”</h5>
@@ -91,7 +98,7 @@ const Slider = () => {
                                     </div>
 
                                 </div>
-                                
+
                                 <div className='col-lg-6 col-md-6 col-sm-12'>
                                     <div className='p-4 text-start'>
                                         <h5 >“As an entrepreneur deeply involved in the Beauty industry, I've been devoted to creating original products. Indibaba.com has been my trusted partner in this process.”</h5>
@@ -106,11 +113,13 @@ const Slider = () => {
                 </div>
 
 
-                <div style={{backgroundImage: `url(${img10})`}} className='text-light bgimg mt-2 d-flex justify-content-center align-content-center '>
+                <div style={{ backgroundImage: `url(${type})` }} className='text-light bgimg mt-2 d-flex justify-content-center align-content-center '>
                     <div className='text-center py-4 items-center'>
-                        <h2 className='flex-grow-1'>Ready to get started</h2>
-                        <h5>Explore millions of products from trusted suppliers by signing up today!</h5>
-                        <button className='btn rounded-pill fs-4 my-4 bgbut'>Sign up</button>
+                        <h2 className='flex-grow-1'>Ready to begin your journey?</h2>
+                        <h5>Discover millions of products from reliable suppliers by signing up
+                            with Indibaba today!
+                        </h5>
+                        <button className='btn rounded-pill fs-4 my-4 bgbut'>Create an account</button>
 
                     </div>
 
