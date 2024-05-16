@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    
 }
 
 .back {
@@ -70,9 +71,9 @@
     overflow-x: auto;
     white-space: nowrap;
 }
-/* .slider-container::-webkit-scrollbar{
+.slider-container::-webkit-scrollbar{
     display: none;
-} */
+}
 
 .slider {
     display: inline-flex;
