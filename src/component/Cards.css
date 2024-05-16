@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* mix-blend-mode: darken; */
+   
 }
 
 .bold{
@@ -31,9 +33,22 @@
     margin: 2px;
     
 }
+.darkbackcolor{
+  background: #00000082;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+
+
+
+}
 .cardsancor{
-  color:navy;
-  mix-blend-mode: multiply;
+  /* color:navy; */
+  color: white;
+  /* display: inline-block; */
+  padding: 20px;
+  border-radius: 15px;
+  /* mix-blend-mode: multiply; */
   font-weight: 900;
 
 }
