@@ -16,7 +16,7 @@ const TextContent = () => {
                             <div className="side-items">
                                 <div className="side-border">
                                     <h2 className="golden-text">200M+</h2>
-                                    <p>Convenience Of Buying</p>
+                                    <p>products</p>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +24,7 @@ const TextContent = () => {
                             <div className="side-items">
                                 <div className="side-border">
                                     <h2 className="golden-text">5,900</h2>
-                                    <p>Payment Protection</p>
+                                    <p>product categories</p>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const TextContent = () => {
                             <div className="side-items">
                                 <div className="side-border">
                                     <h2 className="golden-text">200K+</h2>
-                                    <p>Safekeeping of Customer Data</p>
+                                    <p>suppliers</p>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const TextContent = () => {
                             <div className="side-items">
                                 <div className="side-border">
                                     <h2 className="golden-text">200+</h2>
-                                    <p>Connected with trusted buyers</p>
+                                    <p>countries and regions</p>
                                 </div>
                             </div>
                         </div>

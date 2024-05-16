@@ -182,10 +182,13 @@ const Businesses = () => {
             </p>
           </div>
         </div>
+
+
+
         <div className="row ">
-          <div className="col-lg-6">
-            <div className="imgDiv1 d-flex align-items-end">
-              <p className="imgDiv1_para ps-3">
+          <div className="col-lg-6 my-2">
+            <div className="imgDiv1" >
+              <p className="imgDiv1_para ps-3 ">
                 OUR MISSION <br />
                 <span className="imgDiv1_span">
                   Make it easy to do business anywhere.
@@ -193,8 +196,11 @@ const Businesses = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="imgDivs1 d-flex align-items-end">
+
+
+          <div className="col-lg-6 my-2">
+            <div className="imgDivs1 d-flex flex-column align-items-end">
+
               <p className="imgDiv1_para ps-3">
                 OUR ESG PROMISES
                 <br />
@@ -202,8 +208,10 @@ const Businesses = () => {
                   Ethical technology. Sustainable tomorrow.
                 </span>
               </p>
+
             </div>
           </div>
+
           {/* <div className="col-lg-6 ">
             <div className="container">
               <div className="row mb-4 imgDiv2">
@@ -249,5 +257,4 @@ const Businesses = () => {
 };
 
 export default Businesses;
-
 
