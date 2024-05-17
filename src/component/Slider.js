@@ -113,9 +113,9 @@ const Slider = () => {
                 </div>
 
 
-               <div style={{ backgroundImage: `url(${type})` }} className=' text-light bgimg mt-2 d-flex justify-content-center align-content-center '>
-               <div className='darkbackcolor'>
-                    <div className='text-center py-4 items-center'>
+               <div style={{ backgroundImage: `url(${type})` }} className=' text-light bgimg mt-2 d-flex '>
+               <div className='darkbackcolor  d-flex align-item-center '>
+                    <div className='text-center py-4 items-center  '>
                         <h2 className='flex-grow-1'>Ready to begin your journey?</h2>
                         <h5>Discover millions of products from reliable suppliers by signing up
                             with Indibaba today!
