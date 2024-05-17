@@ -17,11 +17,11 @@
 
 
 .bgimg{
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
-    width: auto;
+    /* width: auto; */
     display: block;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@
 .bgbut{
     background-color: hsl(210, 100%, 20%);
     width: auto;
-    padding: 2%;
+    padding: 1% 2%;
     color: aliceblue;
 }
 .bgbut:hover{
@@ -40,7 +40,11 @@
     background: #00000082;
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 30px; */
+    
     
     
     

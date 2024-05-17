@@ -16,14 +16,14 @@ const Cards = () => {
             <div className=' m-2 px-3 fs-2 bold'>Customer Satisfaction Guarantee:</div>
             <div className='container-fluid'>
                 <div className='row'>
-                    <div className='col-lg-4 col-md-4 col-sm-12 '>
+                    <div className='col-lg-4 col-md-12 col-sm-12 '>
 
                         <div style={{
                             backgroundImage: `url(${img1})`,
 
                         }} className='my-3  rounded-5 backimg '>
 
-                            <div className="darkbackcolor d-flex flex-column justify-content-between">
+                            <div className="darkbackcolor1 d-flex flex-column justify-content-between">
                                 <div className='d-flex  p-3 fs-2 align-items-center text-light '>
                                     <img src={img11} className='img-fluid' alt="Live Tour" />
                                     <h5 className='px-3 '>
@@ -40,12 +40,12 @@ const Cards = () => {
 
                     </div>
 
-                    <div className='col-lg-4 col-md-4 col-sm-12'>
+                    <div className='col-lg-4 col-md-12 col-sm-12'>
                         <div style={{
                             backgroundImage: `url(${img2})`,
 
                         }} className='my-3 rounded-5 backimg'>
-                            <div className="darkbackcolor d-flex flex-column justify-content-between">
+                            <div className="darkbackcolor1 d-flex flex-column justify-content-between">
 
 
                                 <div className=' p-3 fs-2 text-light cardsancor'>
@@ -61,12 +61,12 @@ const Cards = () => {
                         </div>
                     </div>
 
-                    <div className='col-lg-4 col-md-4 col-sm-12'>
+                    <div className='col-lg-4 col-md-12 col-sm-12'>
                         <div style={{
                             backgroundImage: `url(${imges4})`,
 
                         }} className='my-3 rounded-5 backimg'>
-                            <div className="darkbackcolor d-flex flex-column justify-content-between">
+                            <div className="darkbackcolor1 d-flex flex-column justify-content-between">
 
                                 <div className=' p-3 fs-2 text-light cardsancor'>
                                     <h5 className='px-3 '>24/7 Customer Support</h5>
