@@ -66,7 +66,7 @@ const Businesses = () => {
         <div className="row mb-5">
           <div className="col-12">
             <h1 className="myh lh-sm">
-              Simplify Your Ordering Process, <br /> All in One Spot
+              Simplify Your Ordering Process, <br /> All in One Place
             </h1>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Businesses = () => {
                   <CiSearch className="searchIcon" />
                 </span>
                 <div className="d-flex flex-column">
-                  <h2 className="iconh myh2 myh2one">Find What You Need</h2>
+                  <h2 className="iconh myh2">Find What You Need</h2>
                   <p className="iconPara">
                     Browse through millions of products and suppliers to <br /> discover the perfect
                     matches for your business.
@@ -120,7 +120,7 @@ const Businesses = () => {
                   <MdOutlineSwapVerticalCircle className="searchIcon" />
                 </span>
                 <div className="d-flex flex-column">
-                  <h2 className="iconh myh2">Pay with confidence</h2>
+                  <h2 className="iconh myh2">Pay With Confidence</h2>
                   <p className="iconPara">
                     Complete your transactions securely with over 20+ <br /> currencies and trusted
                     payment methods, including <br /> flexible payment terms.
