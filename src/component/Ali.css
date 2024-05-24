@@ -5,11 +5,12 @@
 }
 
 .back {
-    background-image: url("img/background.jpg");
+    background-image: url("./images/dark67.png");
     background-position: center;
+    /* opacity: 0.8; */
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 80vh;
     object-fit: cover;
     width: auto;
     mix-blend-mode: darken;
@@ -23,6 +24,7 @@
     font-family: Inter, "SF Pro Text", Roboto, "Helvetica Neue", Helvetica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei";
     font-size: 20px;
     line-height: 26px;
+    
 }
 
 .text3 {
@@ -31,7 +33,7 @@
     line-height: 52px;
     text-align: start;
     letter-spacing: normal;
-    color: hsl(210, 100%, 20%);
+    color: white;
 
 
 }
@@ -82,7 +84,8 @@
 
 .button4 {
     margin-right: 10px; 
-    color: hsl(210, 100%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
 
 }
 
@@ -208,6 +211,8 @@
  @media screen and (min-width:800px) {
     .mys{
         margin-left: 4rem;
+     
+        
     }
  }
  

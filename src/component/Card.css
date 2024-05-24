@@ -78,6 +78,7 @@
     .side_text {
         font-size: 24px;
         line-height: 36px;
+        
     }
     .golden-text {
         font-size: 28px;
@@ -87,16 +88,17 @@
 
 .side_text {
     color: #222;
-    font-size: 38px;
+    font-size: 25px;
     line-height: 52px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .golden-text {
     color: hsl(210, 100%, 20%);
-    font-size: 36px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: -.73px;
-    line-height: 44px;
+    line-height: 40px;
 }
 
 .side-items {
@@ -107,6 +109,7 @@
     border-left: 4px solid #ccc;
     border-radius: 5px;
     padding-left: 10px;
+    height: 50%;
 }
 
 .back_img {

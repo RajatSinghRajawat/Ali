@@ -17,6 +17,8 @@ import Cards from "./Cards";
 import Slider from "./Slider";
 import Navbar from "./Navbar";
 import Navbar1 from "./Navbar1";
+import Groupslider from "./Groupslider";
+import Gslider from "./Gslider";
 
 const Businesses = () => {
   let parent1 = document.getElementById("firstcol");
@@ -57,6 +59,8 @@ const Businesses = () => {
       <Navbar />
       <Card />
       <TextContent />
+      <Gslider/>
+      <Groupslider/>
       <Cards />
       <div className="container py-5">
         <div className="row mb-5">
@@ -68,9 +72,7 @@ const Businesses = () => {
         </div>
         <div className="row ">
           <div className="col-md-6">
-            <div
-              className="row  seracIcon_div "
-              id="firstcol"
+            <div className="row  seracIcon_div " id="firstcol"
               onMouseLeave={removeclass}
               onMouseEnter={changeimg}
             >
@@ -94,12 +96,12 @@ const Businesses = () => {
               id="secondcol"
               onMouseEnter={changeimg}
             >
-              <div className="col-12  d-flex flex-row   ">
+              <div className="col-12  d-flex flex-row  pt-3 ">
                 <span className="me-3">
                   <TbRosetteDiscountCheck className="searchIcon" />
                 </span>
                 <div className="d-flex flex-column">
-                  <h2 className="iconh myh2">: Choose Wisely</h2>
+                  <h2 className="iconh myh2"> Choose Wisely</h2>
                   <p className="iconPara">
                     Easy to assess product quality and supplier <br /> capabilities with verified
                     inspections and <br /> user-friendly sourcing tools
@@ -113,7 +115,7 @@ const Businesses = () => {
               id="thirdcol"
               onMouseEnter={changeimg}
             >
-              <div className="col-12  d-flex flex-row   ">
+              <div className="col-12  d-flex flex-row  pt-3 ">
                 <span className="me-3">
                   <MdOutlineSwapVerticalCircle className="searchIcon" />
                 </span>
@@ -132,7 +134,7 @@ const Businesses = () => {
               id="fourcol"
               onMouseEnter={changeimg}
             >
-              <div className="col-12  d-flex flex-row   ">
+              <div className="col-12  d-flex flex-row  pt-3 ">
                 <span className="me-3">
                   <AiOutlineGlobal className="searchIcon" />
                 </span>
@@ -152,7 +154,7 @@ const Businesses = () => {
               id="fivecol"
               onMouseEnter={changeimg}
             >
-              <div className="col-12  d-flex flex-row   ">
+              <div className="col-12  d-flex flex-row  pt-3 ">
                 <span className="me-3">
                   <TbUserCog className="searchIcon" />
                 </span>
@@ -258,7 +260,7 @@ const Businesses = () => {
           </div> */}
         </div>
       </div>
-      {/* <footer><Navbar1 /></footer> */}
+      <footer><Navbar1 /></footer>
     </>
   );
 };

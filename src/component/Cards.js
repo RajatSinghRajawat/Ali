@@ -93,8 +93,9 @@ const Cards = () => {
                         </div>
                         <div className='col-lg-7 col-md-3 col-sm-2'></div>
                         
-                        <div className='col-lg-1 col-sm-0'></div>
-                        <div className='col-lg-5 col-md-6 col-sm-12 mb-3'>
+                        <div className='row  d-flex justify-content-around'>
+                        {/* <div className='col-lg-1 col-sm-0'></div> */}
+                        <div className='col-lg-5 col-md-6 col-sm-12 mb-3 '>
                             <div className='color rounded-4 px-3 py-3 h-100'>
                                 <p className=''>Ensure production quality with</p>
                                 <h1>Trusted partners:</h1>
@@ -110,7 +111,7 @@ const Cards = () => {
 
                             </div>
                         </div>
-                        <div className='col-lg-5 col-md-6 col-sm-12 mb-3'>
+                        <div className='col-lg-5 col-md-6 col-sm-12 mb-3 '>
                             <div className='color rounded-4 px-3 py-3  h-100'>
                                 <p>Protect your purchase with</p>
                                 <h1>Transaction security:</h1>
@@ -119,14 +120,15 @@ const Cards = () => {
                                     order and pay on indibaba.com
                                 </p>
                                 <div className='d-flex gap-4 align-items-center'>
-                                    <button className='bg-secondary btn rounded-pill '><MdOutlineSlowMotionVideo className='fs-4 pe-1  ' />Watch video</button>
+                                    <button className='bg-secondary btn rounded-pill '><MdOutlineSlowMotionVideo className='fs-4  pe-1 ' />Watch video</button>
                                     <a href='#' className='text-white fs-5'>Explore further</a>
 
                                 </div>
 
                             </div>
                         </div>
-                        <div className='col-lg-1  col-sm-0'></div>
+                        {/* <div className='col-lg-1  col-sm-0'></div> */}
+                        </div>
                    
 
                 </div>

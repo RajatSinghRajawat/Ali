@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../component/assets/logo.svg';
 
 // import './Ali.css';
 import './Navbar2.css';
@@ -9,7 +10,7 @@ const Navbar2 = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-navy Navback Navsilde">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#"><b>Indibaba.com</b></a>
+            <img src={logo} alt="" />
                 <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
