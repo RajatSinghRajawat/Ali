@@ -183,7 +183,7 @@ const Businesses = () => {
             <p>
               Indibaba provides comprehensive B2B trading solutions for small and <br />
               medium-sized businesses worldwide, enabling them to thrive in the <br />digital
-              trade landscape, seize global opportunities, and expand internationally.
+              trade landscape, seize global opportunities and expand internationally.
             </p>
           </div>
         </div>
@@ -197,7 +197,7 @@ const Businesses = () => {
               <p className="imgDiv1_para py-3 ps-3 ">
                 OUR MISSION <br /><br />
                 <span className="imgDiv1_span">
-                  Make it easy to do business anywhere.
+                  Make it easy to do business anywhere
                 </span>
               </p>
             </div>
@@ -213,7 +213,7 @@ const Businesses = () => {
                 OUR ESG PROMISES
                 <br /><br />
                 <span className="imgDiv1_span">
-                  Ethical technology. Sustainable tomorrow.
+                  Ethical technology. Sustainable tomorrow
                 </span>
               </p>
 

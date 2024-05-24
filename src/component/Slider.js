@@ -11,7 +11,7 @@ const Slider = () => {
         <>
             <div className='bgcol'>
                 <div className='text-center p-3'>
-                    <h2 className='txt py-3'>Access personalized discounts, services, and tools
+                    <h2 className='txt py-3'>Access personalized discounts, services and tools
                         designed for <br /> your business stage</h2>
                     <p className='text-justify'>Benefit from curated advantages with the complimentary Indibaba
                         Membership, catering to businesses at every phase. <br /> Whether you're a startup

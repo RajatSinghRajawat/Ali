@@ -28,7 +28,7 @@ const imag_map = [
         icons: <GiMayanPyramid />
         ,
         text: "Personalized Trading Support",
-        paragraph: "Enjoy tailored benefits like special discounts, added protection, and extra assistance to help your business thrive."
+        paragraph: "Enjoy tailored benefits like special discounts, added protection and extra assistance to help your business thrive."
     },
 ];
 

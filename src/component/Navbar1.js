@@ -13,9 +13,9 @@ const Navbar1 = () => {
                         <div className="row" style={{ fontSize: '11px', lineHeight: '5px', fontWeight: 'bold' }}>
                             <div className="col-lg-2 col-md-4 col-sm-12 mt-5">
                                 <div>
-                                    <p className='footer1'>Get support</p>
+                                    <p className='footer1'>Get Support</p>
                                     
-                                    <p className="pt-3 footer2">Help Center</p>
+                                    <p className="pt-3 footer2">Help center</p>
                                     <p className='footer2'>Live chat</p>
                                     <p className='footer2'>Check order status</p>
                                     <p className='footer2'>Refunds</p>
@@ -37,11 +37,11 @@ const Navbar1 = () => {
                                 <div>
                                     <p className='footer1'>Source on Indibaba.com</p>
                                     
-                                    <p className="pt-3 footer2">Request for Quotation</p>
+                                    <p className="pt-3 footer2">Request for quotation</p>
                                     <p className='footer2'>Membership program</p>
-                                    <p className='footer2'>Indibaba.com Logistics</p>
-                                    <p className='footer2'>Sales tax and VAT</p>
-                                    <p className='footer2'>Indibaba.com Reads</p>
+                                    <p className='footer2'>Indibaba.com logistics</p>
+                                    <p className='footer2'>Sales tax and vat</p>
+                                    <p className='footer2'>Indibaba.com reads</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-12 mt-5">
@@ -49,8 +49,8 @@ const Navbar1 = () => {
                                     <p className='footer1'>Sell on Indibaba.com</p>
                                     
                                     <p className="pt-3  footer2">Start selling</p>
-                                    <p className='footer2'>Seller Central</p>
-                                    <p className='footer2'>Become a Verified Supplier</p>
+                                    <p className='footer2'>Seller central</p>
+                                    <p className='footer2'>Become a verified supplier</p>
                                     <p className='footer2'>Partnerships</p>
                                     <p className='footer2'>Download the app for suppliers</p>
                                 </div>
@@ -112,8 +112,9 @@ const Navbar1 = () => {
                 <div className="row">
                     <div className="col-12">
                         <div style={{ textAlign: 'center' }}>
-                            <span className='lasttext'>IndiExpress | 1688.com | Tmall Taobao World | Indipay | Lazada | Taobao Global <br/>
-                            Policies and rules . Legal Notice . Product Listing Policy . Intellectual Property Protection . Privacy Policy . Terms of Use . Integrity Compliance <br /> © 1999-2024 Indibaba.com. All rights reserved. 浙公网安备 33010002000092号 浙B2-20120091-4</span>
+                            {/* <span className='lasttext'>IndiExpress | 1688.com | Tmall Taobao World | Indipay | Lazada | Taobao Global <br/>
+                            Policies and rules . Legal Notice . Product Listing Policy . Intellectual Property Protection . Privacy Policy . Terms of Use . Integrity Compliance <br /> © 1999-2024 Indibaba.com. All rights reserved. 浙公网安备 33010002000092号 浙B2-20120091-4</span> */}
+                            <span className='lasttext' >indiaba.com</span>
                         </div>
                     </div>
                 </div>

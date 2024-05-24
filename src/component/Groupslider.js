@@ -133,9 +133,9 @@ const Groupslider = () => {
                   <div className="col-8">
                     <h3>Latest Additions</h3>
                   </div>
-                  <div className="col-4">
+                  {/* <div className="col-4">
                     <a href=" " style={{ color: "black" }}>view more</a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="">
                   <Carousel items={carouselItems} />
@@ -146,9 +146,9 @@ const Groupslider = () => {
                   <div className="col-8">
                     <h3>Deals of The Day </h3>
                   </div>
-                  <div className="col-4">
+                  {/* <div className="col-4">
                     <a href=" ">view more</a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="card" style={{ border: "None", borderRadius: "20px",}}>
                   <div className="p-3">
@@ -185,7 +185,7 @@ const Groupslider = () => {
                       </div>
                       <div className="col-7 pt-4">
                         <h5>New this week</h5>
-                        <span>Products from Verified Suppliers only</span>
+                        <span>Products From Verified Suppliers Only</span>
                       </div>
                     </div>
                   </div>
@@ -196,16 +196,16 @@ const Groupslider = () => {
                   <div className="col-8">
                     <h3>Personal Protective</h3>
                   </div>
-                  <div className="col-4">
+                  {/* <div className="col-4">
                     <a href=" ">view more</a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className=''>
                   <div className='card p-3' style={{ border: "None", borderRadius: "20px" }} >
                     <div className='row'>
                       <div className="col-8 pt-4">
                         <h5>New this week</h5>
-                        <span>Products from Verified Suppliers only</span>
+                        <span>Products From Verified Suppliers Only</span>
                       </div>
                       <div className="col-2">
                         <img src="https://s.alicdn.com/@sc04/kf/H1c3d35a8efe34402ba48dc012148881fj.jpg_350x350.jpg" alt="" style={{ width: "120px", borderRadius: "20px" }} />

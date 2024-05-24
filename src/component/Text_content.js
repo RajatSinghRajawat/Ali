@@ -12,7 +12,7 @@ const TextContent = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="row">
-                        <div className="col-md-6 pb-4">
+                        <div className="col-md-6">
                             <div className="side-items">
                                 <div className="side-border">
                                     <h2 className="golden-text">Convenience of buying</h2>
