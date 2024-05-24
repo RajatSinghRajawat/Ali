@@ -25,15 +25,15 @@ const Cards = () => {
 
                             <div className="darkbackcolor1 d-flex flex-column justify-content-between">
                                 <div className='d-flex  p-3 fs-2 align-items-center text-light '>
-                                    <img src={img11} className='img-fluid' alt="Live Tour" />
+                                    {/* <img src={img11} className='img-fluid' alt="Live Tour" /> */}
                                     <h5 className='px-3 '>
 
                                         Return Policy</h5>
                                 </div>
 
-                                <div className='p-3'>
+                                {/* <div className='p-3'>
                                     <a href='#' className='text-light text-decoration-none fw-bold fs-5 '>View LIVE</a>
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>
@@ -50,12 +50,12 @@ const Cards = () => {
 
                                 <div className=' p-3 fs-2 text-light cardsancor'>
 
-                                    <h5 className='px-3 '>Customer Reviews:</h5>
+                                    <h5 className='px-3 '>Customer Reviews</h5>
                                 </div>
 
-                                <div className='p-3'>
+                                {/* <div className='p-3'>
                                     <a href='#' className=' text-light text-decoration-none fw-bold fs-5'>View more</a>
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>
@@ -72,9 +72,9 @@ const Cards = () => {
                                     <h5 className='px-3 '>24/7 Customer Support</h5>
                                 </div>
 
-                                <div className='p-3'>
+                                {/* <div className='p-3'>
                                     <a href='#' className=' text-light text-decoration-none fw-bold fs-5'>View more</a>
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>
@@ -116,7 +116,7 @@ const Cards = () => {
                                 <p>Protect your purchase with</p>
                                 <h1>Transaction security:</h1>
                                 <p>Source confidently with secure payment options, protection against product or
-                                    shipping issues, and assistance for any purchase-related concerns when you
+                                    shipping issues and assistance for any purchase-related concerns when you
                                     order and pay on indibaba.com
                                 </p>
                                 <div className='d-flex gap-4 align-items-center'>

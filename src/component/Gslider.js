@@ -58,7 +58,7 @@ const Gslider = () => {
            },
            {
             aerr: furniture,
-            Name:'Furnitures',    
+            Name:'Furniture',    
            },
            {
             aerr: electricity,
