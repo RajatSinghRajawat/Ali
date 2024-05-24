@@ -98,7 +98,7 @@ const Cards = () => {
                         <div className='col-lg-5 col-md-6 col-sm-12 mb-3 '>
                             <div className='color rounded-4 px-3 py-3 h-100'>
                                 <p className=''>Ensure production quality with</p>
-                                <h1>Trusted partners:</h1>
+                                <h1>Trusted partners</h1>
                                 <p>Connect with a diverse range of suppliers, all with verified credentials and
                                     capabilities. Look for the "Verified" badge to start sourcing from experienced
                                     suppliers you can trust.
@@ -114,7 +114,7 @@ const Cards = () => {
                         <div className='col-lg-5 col-md-6 col-sm-12 mb-3 '>
                             <div className='color rounded-4 px-3 py-3  h-100'>
                                 <p>Protect your purchase with</p>
-                                <h1>Transaction security:</h1>
+                                <h1>Transaction security</h1>
                                 <p>Source confidently with secure payment options, protection against product or
                                     shipping issues and assistance for any purchase-related concerns when you
                                     order and pay on indibaba.com

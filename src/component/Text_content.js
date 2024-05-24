@@ -33,7 +33,7 @@ const TextContent = () => {
                         <div className="col-md-6">
                             <div className="side-items">
                                 <div className="side-border">
-                                    <h2 className="golden-text">Payment Production</h2>
+                                    <h2 className="golden-text">Payment Protection</h2>
                                     {/* <p>suppliers</p> */}
                                 </div>
                             </div>

@@ -99,22 +99,22 @@ const Groupslider = () => {
     // },
     {
       imageSrc: "https://s.alicdn.com/@sc04/kf/H067911b2521743b3a59ed6e6bf28165e1.jpg_350x350.jpg",
-      title: "Most popular",
+      title: "Top Ranking",
       subtitle: "Light Canvas Trendy Shoes",
     },
     {
       imageSrc: "https://s.alicdn.com/@sc04/kf/Hb3f8a979909344e58d2b96731d624133r.jpg_350x350.jpg",
-      title: "Most popular",
+      title: "Top Ranking",
       subtitle: "Passenger Car Wheels For Luxury",
     },
     {
       imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxpVnViRu-EmQY7GNmWa8Wk_C0Q9YbGNEXaw&s",
-      title: "Most popular",
+      title: "Top Ranking",
       subtitle: "Mesh Upper Walking Style Shoes",
     },
     {
       imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeNmZkNV8jRdH1SsUGKe4UFKy6F2hXp2jqpw&s",
-      title: "Most popular",
+      title: "Top Ranking",
       subtitle: "Mesh Upper Walking Style Shoes",
     },
   ];
@@ -194,7 +194,7 @@ const Groupslider = () => {
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="row">
                   <div className="col-8">
-                    <h3>Personal Protective</h3>
+                    <h3>Most Popular</h3>
                   </div>
                   {/* <div className="col-4">
                     <a href=" ">view more</a>
