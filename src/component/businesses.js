@@ -213,7 +213,7 @@ const Businesses = () => {
                 OUR ESG PROMISES
                 <br /><br />
                 <span className="imgDiv1_span">
-                  Ethical technology. Sustainable tomorrow
+                  Ethical technology, Sustainable tomorrow
                 </span>
               </p>
 
