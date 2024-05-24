@@ -54,7 +54,7 @@ const Gslider = () => {
            },
            {
             aerr: bags,
-            Name:'bags',   
+            Name:'Bags',   
            },
            {
             aerr: furniture,
@@ -77,7 +77,7 @@ const Gslider = () => {
         },
         {
             aerr: food,
-            Name:'foods', 
+            Name:'Foods', 
            },
            {
             aerr: bev,
@@ -101,15 +101,15 @@ const Gslider = () => {
            },
            {
             aerr: met,
-            Name:'Metials',   
+            Name:'Metals',   
            },
            {
             aerr: wom,
-            Name:'Wome wear',   
+            Name:`Women's wear`,   
            },
            {
             aerr: men,
-            Name:'Mens wear',   
+            Name:`Men's wear`,   
            },
            
     ]
@@ -128,11 +128,11 @@ const Gslider = () => {
                       return (
                                     <div className="col-lg-1 op bor" style={{borderTopLeftRadius:"20px",borderBottomRightRadius:"20px", cursor:"pointer",}}>
                                     {/* <div className="p-2" > */}
-                                        <div className='d-flex justify-content-center p-1 pb-0 pt-2'>
+                                        <div className='d-flex justify-content-center p-1 pb-0 pt-2' style={{fontSize:"1rem"}} >
                                         <img src={res.aerr} alt="" style={{width:"50px",fontWeight:"900"}} />
                                         </div>
                                          <div className="d-flex justify-content-center pb-3">
-                                            <h6>{res.Name}</h6>
+                                         <p className='dopes' >{res.Name}</p>
                                         </div> 
                                     {/* </div> */}
                                     </div>
@@ -142,15 +142,15 @@ const Gslider = () => {
                             </div>
                             <div className="col-lg-12 col-md-6 col-sm-12 pt-5">
                                 <div className="row" >
-                                {data1.map((res) => {
+                                {data1.map((res,op) => {
                       return (
                                     <div className="col-lg-1 op bord" style={{borderTopRightRadius:"20px",borderBottomLeftRadius:"20px", cursor:"pointer",}}>
                                     {/* <div className="p-2" > */}
-                                        <div className='d-flex justify-content-center p-1 pb-0 pt-2'>
-                                        <img src={res.aerr} alt="" style={{width:"50px",fontWeight:"900"}} />
+                                        <div className='d-flex justify-content-center p-1 pb-0 pt-2' >
+                                        <img src={res.aerr} alt="" style={{fontWeight:"900",width:op==7?"80px":"50px"}}  />
                                         </div>
                                          <div className="d-flex justify-content-center pb-3">
-                                            <h6>{res.Name}</h6>
+                                            <p className='dopes' >{res.Name}</p>
                                         </div> 
                                     {/* </div> */}
                                     </div>

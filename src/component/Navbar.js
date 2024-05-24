@@ -42,7 +42,7 @@ const Navbar = () => {
                         <div className=' mys'>
                             <p className='text-light text2'>
                                 <span><i className="fa-solid fa-circle-play"></i> </span>Discover Indibaba</p>
-                            <h2 className=' text3'><b>Indibaba: Your Window to WorldWide <br /> Business</b></h2>
+                            <h2 className=' text3'><b>Indibaba : Your Window to WorldWide Business</b></h2>
                            
                                 <div className="container-fluid  text-start mt-5">
                                     <div className='row'>
@@ -79,19 +79,19 @@ const Navbar = () => {
                                     </div>
                                 </div>
                             
-                            <div className='row mt-5 mb-5'>
+                            <div className='row mt-5 mb-5 align-items-center'>
                                 <div className='col-lg-2 col-md-6 col-sm-12 mt-1'>
-                                    <p className=' button4'>Frequently searched :</p>
+                                    <p className=' button4 mb-0'>Frequently searched :</p>
                                 </div>
                                 <div className='col-lg-10 col-md-6 col-sm-12'>
                                     <div className="slider-container">
-                                        <div className="slider">
+                                        <div className="slider align-items-center">
                                             <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>Commonly explored</button>
                                             <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>Popularly researched</button>
                                             <button className='btn btn-outline-dark text-white  border-light rounded-pill button4 ps-4 pe-4'>Frequently explored</button>
-                                            <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>sport shoe men</button>
-                                            <button className='btn btn-outline-dark   text-white  border-light rounded-pill button4 ps-4 pe-4'>football shoe men</button>
-                                            <button className='btn btn-outline-dark   text-white  border-light rounded-pill button4 ps-4 pe-4'>kids bed</button>
+                                            <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>Sports shoes men</button>
+                                            <button className='btn btn-outline-dark   text-white  border-light rounded-pill button4 ps-4 pe-4'>Football shoes men</button>
+                                            <button className='btn btn-outline-dark   text-white  border-light rounded-pill button4 ps-4 pe-4'>Kids bed</button>
 
                                         </div>
                                     </div>

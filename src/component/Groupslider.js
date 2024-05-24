@@ -217,7 +217,7 @@ const Groupslider = () => {
                   <div className='card p-4' style={{border: "none", borderRadius: "20px",width: "100%",height:"100%", }} >
                     <div className='row'>
                     <div className="col-12 p-2">
-                        <h6>Nikoon Camera </h6>
+                        <h6>Nikon Camera </h6>
                         <div style={{ width: "100%",height: "43vh" }}>
                         <img src={inkd} style={{ width: "100%",  height: "100%", objectFit: "cover", borderRadius: "20px" }} />
                       </div>
