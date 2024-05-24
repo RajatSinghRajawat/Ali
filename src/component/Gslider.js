@@ -30,7 +30,7 @@ const Gslider = () => {
     const data =[
         {
          aerr: err,
-         Name:'Home',   
+         Name:'Home Decor',   
         },
         {
             aerr: img2,
@@ -77,11 +77,11 @@ const Gslider = () => {
         },
         {
             aerr: food,
-            Name:'Foods', 
+            Name:'Food', 
            },
            {
             aerr: bev,
-            Name:'Soft Drinks',   
+            Name:'Beverages',   
            },
            {
             aerr: agri,

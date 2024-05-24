@@ -86,9 +86,9 @@ const Navbar = () => {
                                 <div className='col-lg-10 col-md-6 col-sm-12'>
                                     <div className="slider-container">
                                         <div className="slider align-items-center">
-                                            <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>Commonly explored</button>
-                                            <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>Popularly researched</button>
-                                            <button className='btn btn-outline-dark text-white  border-light rounded-pill button4 ps-4 pe-4'>Frequently explored</button>
+                                            <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>Men's wear</button>
+                                            <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>Home decor</button>
+                                            <button className='btn btn-outline-dark text-white  border-light rounded-pill button4 ps-4 pe-4'>Health supplies</button>
                                             <button className='btn btn-outline-dark  text-white  border-light rounded-pill button4 ps-4 pe-4'>Sports shoes men</button>
                                             <button className='btn btn-outline-dark   text-white  border-light rounded-pill button4 ps-4 pe-4'>Football shoes men</button>
                                             <button className='btn btn-outline-dark   text-white  border-light rounded-pill button4 ps-4 pe-4'>Kids bed</button>

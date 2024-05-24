@@ -8,7 +8,7 @@ const TextContent = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-6">
-                    <h1 className='side_text pb-5'>Millions of possibilities, one perfect match <br /> -  Find it on IndiBaba</h1>
+                    <h1 className='side_text pb-5 ' style={{fontWeight:600}} >Millions of possibilities, one perfect match <br /> -  Find it on IndiBaba</h1>
                 </div>
                 <div className="col-lg-6">
                     <div className="row">
