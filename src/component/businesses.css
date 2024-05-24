@@ -40,6 +40,7 @@
 .seracIcon_div:hover {
     .iconPara {
         display: block;
+        cursor: pointer;
 
     }
 
@@ -49,11 +50,13 @@
         color: white;
         background-color: hsl(210, 99%, 45%);
         border: none;
+        cursor: pointer;
     }
 
     .iconh {
         font-weight: bold;
         color: hsl(210, 100%, 20%);
+        cursor: pointer;
 
 
     }
@@ -186,11 +189,20 @@
     background: #00000082;
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    border-radius: 23px;
     
     
     
     }
+    .darkbackcolor{
+        background: #00000082;
+        width: 100%;
+        height: 100%;
+        border-radius: 23px;
+        
+        
+        
+        }
 
     .myh2{
         font-size: 2rem;

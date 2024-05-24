@@ -1,0 +1,28 @@
+
+    .custom-carousel .carousel-control-prev,
+    .custom-carousel .carousel-control-next,
+    .custom-carousel .carousel-indicators {
+      display: none;
+    }
+    .bor{
+      border: 3px solid #eaeaea;
+    }
+    .bor:hover{
+      border: 3px solid #b49999;
+    }
+    .bord{
+      border: 3px solid #eaeaea;
+    }
+    .bord:hover{
+      border: 3px solid #b49999;
+    }
+    .op{
+      margin-left: 20px;
+    }
+
+    @media screen and (max-width:768px) {
+      .op{
+        margin-left: 0px;
+        margin-bottom:12px;
+      }
+    }

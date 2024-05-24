@@ -8,7 +8,7 @@ const Navbar1 = () => {
     return (
         <>
             <section>
-                <div>
+                <div><hr className='mb-1'/>
                     <div className="container-fluid footer4 ps-5">
                         <div className="row" style={{ fontSize: '11px', lineHeight: '5px', fontWeight: 'bold' }}>
                             <div className="col-lg-2 col-md-4 col-sm-12 mt-5">
@@ -107,7 +107,8 @@ const Navbar1 = () => {
                 </div>
 
             </section>
-            <div className="container-fluid mt-5 mb-4" style={{ backgroundColor: 'rgb(f4f4f4)', color: '#666666' }}>
+           <section style={{backgroundColor:"#f4f4f4"}}>
+           <div className="container-fluid mt-5" style={{ backgroundColor: 'rgb(f4f4f4)', color: '#666666' }}>
                 <div className="row">
                     <div className="col-12">
                         <div style={{ textAlign: 'center' }}>
@@ -117,6 +118,7 @@ const Navbar1 = () => {
                     </div>
                 </div>
             </div>
+           </section>
 
 
 
